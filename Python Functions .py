@@ -17,3 +17,17 @@ print("Product:", result)
 multiply = lambda a, b: a * b
 result = multiply(6, 7)
 print("Anonymous Function Result:", result)
+
+#SELF AS THE FIRST ARGUMENT
+class calculator:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    def add(self):
+        return self.a + self.b
+    def subtract(self):
+        return self.a - self.b
+calc = calculator(10, 5)
+print("Class Method Add:", calc.add())
+print("Class Method Subtract:", calc.subtract())    
+
