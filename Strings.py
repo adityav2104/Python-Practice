@@ -16,7 +16,7 @@ s = "Aditya"
 s = 'I' + s[1:]
 print(s)
 '''
-
+'''
 #COMMON STRING METHODS 
 name = "Aditya Verma"
 
@@ -28,8 +28,10 @@ print(name.replace("Aditya", "Aadi"))
 print(name.split())  
 print(name.startswith("Aditya")) 
 print(name.endswith("Verma"))
+'''
 
-#CONCATINATING AND REPEATING STRINGS
-name[0:6] = "Aadi"
-print(name)
+s ={1,2,3,4,5,5}
 
+
+    
+print(s[0])
