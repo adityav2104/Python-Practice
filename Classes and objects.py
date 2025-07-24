@@ -1,5 +1,5 @@
 # BASIC STRUCTURE OF CLASS
-
+'''
 class student:
     def __init__(self, name, age,marks):
         self.name = name
@@ -14,7 +14,7 @@ s = student("Aditya", 23, 50)
 s.showdata()
 #print(s.name)
 
-'''
+
 
 #CLASS ATTRIBUTE
 
@@ -38,4 +38,16 @@ print(dog.count)
 
 
 
+class teacher:
+    def __init__(self, name, id, marks):
+        self.name = name
+        self.id = id
+        self.marks = marks
 
+    def display(self):
+        print(f"Your name : {self.name} \n Your ID : {self.id} \n Your marks : {self.marks}")
+
+class student(teacher):
+    
+              
+            

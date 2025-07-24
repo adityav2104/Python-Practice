@@ -30,8 +30,3 @@ print(name.startswith("Aditya"))
 print(name.endswith("Verma"))
 '''
 
-s ={1,2,3,4,5,5}
-
-
-    
-print(s[0])
